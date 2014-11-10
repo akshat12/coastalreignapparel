@@ -1,0 +1,1 @@
+Use these export files if the main wordpress directory doesn't work
