@@ -11,3 +11,36 @@ Template: x
 */
 
 @import url( '../x/framework/css/site/stacks/ethos.css' );
+
+@font-face {
+    font-family:helveticacond;
+    src: url(font/helveticancondensed.ttf);
+}
+
+@font-face {
+    font-family:mtgothicreg;
+    src: url(font/mtgothicreg.ttf);
+}
+
+.x-navbar .x-nav > li > a,
+.h-custom-headline,
+.x-btn.x-btn-square,
+.tp-caption.very_large_text2{
+	font-family:helveticacond!important;
+}
+
+p,
+.h-feature-headline span,
+.tp-caption.medium_text{
+	font-family:mtgothicreg!important;
+	letter-spacing:-1.1px;
+}
+
+.tp-caption.very_large_text2,
+.tp-caption.medium_text{
+	text-shadow:none!important;
+}
+
+.coastalreign_service1{
+	width:94%;
+}
